@@ -1,0 +1,9 @@
+[core]
+	hooksPath = hooks
+	eol = lf
+	autocrlf = input
+[merge]
+	ff = false
+[merge "ours"]
+	driver = true
+	name = Keep ours merge
